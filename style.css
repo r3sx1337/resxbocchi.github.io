@@ -50,12 +50,18 @@ input{
 }
 #share{
   border-radius: 10px;
+  background-image: url('images/share.png');
   background-color: white;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  background-repeat: no-repeat;
   border-color: white;
   height: 80;
   width: 360;
   font-weight: bold;
   color: black
+
 }
 .namenemail{
   border-radius: 10px;
