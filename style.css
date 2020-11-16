@@ -9,6 +9,7 @@
 
 body{
   background: #7cdbc0;
+  magin:30px;
 }
 .row {
   display: flex;
