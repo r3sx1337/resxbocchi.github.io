@@ -6,12 +6,7 @@
     text-align: center;
     color:white;
 }
-.jumbotron{
-  background-image: url('sf.png');
-  background-repeat: round;
-  color: white;
 
-}
 body{
   background: #7cdbc0;
 }
@@ -27,11 +22,10 @@ body{
   border-radius: 10px;
   height: 500;
   width: 400;
+    margin:auto;
 
 }
-#lc.container{
-  text-align: left;
-}
+
 .preencha{
   color: white;
   font-weight: bold;
@@ -54,6 +48,15 @@ input{
   width: 360;
   font-weight: bold;
 }
+#share{
+  border-radius: 10px;
+  background-color: white;
+  border-color: white;
+  height: 80;
+  width: 360;
+  font-weight: bold;
+  color: black
+}
 .namenemail{
   border-radius: 10px;
   border-color: #00a778;
@@ -61,5 +64,18 @@ input{
   width: 370;
 }
 .nefacil{
+  text-align: justify;
+}
+.iframe{
+  max-width: 100%;
+  margin:auto;
+  border-radius: 10px;
+  border-color:#00a778;
+}
+@media only screen and (max-device-width: 900px) {
+/* .menu { width:100%; } */
+}
+.listamais{
+  list-style-image: url('images/icon.png');
   text-align: justify;
 }
