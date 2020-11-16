@@ -29,6 +29,9 @@ body{
   width: 400;
 
 }
+#lc.container{
+  text-align: left;
+}
 .preencha{
   color: white;
   font-weight: bold;
@@ -56,4 +59,7 @@ input{
   border-color: #00a778;
   height: 40;
   width: 370;
+}
+.nefacil{
+  text-align: justify;
 }
