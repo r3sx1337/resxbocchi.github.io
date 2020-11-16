@@ -4,7 +4,7 @@
 
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="style.css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -16,50 +16,68 @@
 
 
 <div class='container' id='form'>
+<br><br><br><br><br><br><br>
+        <h1 class='header'>Texto reforçando a chamada para assistir o vídeo</h1>
 
-    <div class="jumbotron">
-        <h1 class="display-4">Brain Match!</h1>
-        <p class="lead">Este é o esqueleto do site.</p>
-        <hr class="my-4">
-        <p>Vamos bater os 10k.</p>
-              </div>
+<br><br><br>
 
-        <h1>Exemplo de formulário para o Show me the Leads</h1>
-        <form method="POST" action="https://smtl.gama.academy/leads/1ccccd80-25e3-11eb-bf8d-0d63c80760d2">
-          <label for="name">Nome:</label>
-          <input
-            name="nome"
-            type="text"
-            id='nome'
-            pattern="^\D{2,}\s[\D\s]{2,}$"
-            title="Digite seu nome completo"
-            required
-          /><br><br>
-            <label for="email">Email:</label>
-          <input
-            name="email"
-            type="email"
-            title="Digite um email válido"
-            required
-          /><br><br>
-          <input name="redirectTo" type="hidden" value="https://gama.academy" />
-          <input name="debugMode" type="hidden" value="true" />
-          <input type="submit" />
-        </form>
+
+        <div class="row">
+
+          <div class="column">
+            <div class='container' id='lc'>
+
+            </div>
+          </div>
+
+          <div class="column">
+            <div class='container' id='rc'>
+
+              <h2 class='preencha'>Preparada para mudar?<br>Nós vamos te mostrar como.</h2>
+
+                    <div class='nomeeemail'>
+                                  <form method="POST" action="https://smtl.gama.academy/leads/1ccccd80-25e3-11eb-bf8d-0d63c80760d2">
+                                    <label for="name">Nome:</label><br>
+                                    <input
+                                      class='namenemail'
+                                      name="name"
+                                      type="text"
+                                      pattern="^\D{2,}\s[\D\s]{2,}$"
+                                      title="Digite seu nome completo"
+                                      required
+                                    /><br><br>
+                                      <label for="email">Email:</label><br>
+                                      <input
+                                      class='namenemail'
+                                      name="email"
+                                      type="email"
+                                      required
+                                    /><br><br>
+                    </div>
+                    <div class="submit">
+
+
+                                    <input name="redirectTo" type="hidden" value="https://gama.academy" />
+                                    <input name="debugMode" type="hidden" value="true" />
+                                    <input type="submit" class="btn btn-primary btn-lg" id='button' value="BAIXAR PLANILHA AGORA" />
+                    </div>
+
+              </form>
+
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
 
 </div>
 </body>
-<style>
-    #form{
-        text-align: center;
-    }
-    .jumbotron{
-      background-image: url('https://miro.medium.com/max/4166/0*IioOCMXkoF7rty5u.jpg');
-      background-repeat: round;
-      color: purple;
-      
-    }
 
-</style>
 
 </html>
