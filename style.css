@@ -50,6 +50,7 @@ input{
 }
 #share{
   border-radius: 10px;
+  border-style:solid;
   background-image: url('images/share.png');
   background-color: white;
   background-size: contain;
