@@ -1,0 +1,59 @@
+.header{
+  color: white;
+  font-weight: bolder;
+}
+#form{
+    text-align: center;
+    color:white;
+}
+.jumbotron{
+  background-image: url('sf.png');
+  background-repeat: round;
+  color: white;
+
+}
+body{
+  background: #7cdbc0;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+#rc.container{
+  background-color: #00a778;
+  border-radius: 10px;
+  height: 500;
+  width: 400;
+
+}
+.preencha{
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+.nomeeemail{
+  text-align: left;
+}
+input{
+  width: 300;
+}
+.submit{
+
+}
+#button{
+  border-radius: 10px;
+  background-color: #ff5a00;
+  border-color: #ff5a00;
+  height: 80;
+  width: 360;
+  font-weight: bold;
+}
+.namenemail{
+  border-radius: 10px;
+  border-color: #00a778;
+  height: 40;
+  width: 370;
+}
