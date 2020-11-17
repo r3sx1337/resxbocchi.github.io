@@ -17,6 +17,7 @@
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="style.css">
+
       <title> NovaMente </title>
 
   </head>
@@ -74,6 +75,7 @@
                   <input
                     class='namenemail'
                     name="name"
+                    id="nome"
                     type="text"
                     pattern="^\D{2,}\s[\D\s]{2,}$"
                     title="Digite seu nome completo"
@@ -87,6 +89,7 @@
                   <input
                     class='namenemail'
                     name="email"
+                    id="email"
                     type="email"
                     required/>
 
@@ -98,13 +101,8 @@
                   <div class="submit">
 
                     <input name="redirectTo" type="hidden" value="https://resxbocchi.github.io/agradecimento.html" />
-                    <input type="submit" onclick='download()'class="btn btn-primary btn-lg" id='button' value="RECEBA SUA PLANILHA AGORA" />
-
-                    <script type="text/javascript">
-                    function download(){
-                      window.open("Gestão do Tempo.xlsx")}
-                    </script>
-
+                    <input type="submit" class="btn btn-primary btn-lg" id='button' value="RECEBA SUA PLANILHA AGORA" />
+                    
                   </div>
 
               </form>
@@ -132,4 +130,7 @@
       </div>
     </div>
   </body>
+
+  <script src="script.js"></script>
+
 </html>
