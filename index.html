@@ -79,9 +79,15 @@
                     </div>
                     <div class="submit">
 
-
+                                    <input name="debugMode" type="hidden" value="true" />
                                     <input name="redirectTo" type="hidden" value="https://resxbocchi.github.io/agradecimento.html" />
-                                    <input type="submit" class="btn btn-primary btn-lg" id='button' value="BAIXAR PLANILHA AGORA" />
+                                    <input type="submit" onclick='download()'class="btn btn-primary btn-lg" id='button' value="RECEBA SUA PLANILHA AGORA" />
+
+<script type="text/javascript">
+function download(){
+  window.open("Gestão do Tempo.xlsx")
+}
+</script>
                     </div>
 
               </form>
