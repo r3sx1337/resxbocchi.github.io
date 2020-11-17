@@ -8,7 +8,14 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+
 }
+body{
+  background: #7cdbc0;
+  padding:5px;
+  margin-right:20px;
+}
+
 
 .sharebuttons{
   text-align: center;
@@ -58,10 +65,7 @@ min-width: 540;
     color:white;
 }
 
-body{
-  background: #7cdbc0;
-  padding:5px;
-}
+
 .row {
   display: flex;
 }
