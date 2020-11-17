@@ -65,7 +65,9 @@ body{
 .row {
   display: flex;
 }
-
+.gdo{
+  color: #084C10;
+}
 .column {
   flex: 50%;
 }
@@ -146,6 +148,7 @@ input{
 }
 .nefacil{
   text-align: justify;
+  font-weight: bolder;
 }
 .iframe{
   max-width: 100%;
