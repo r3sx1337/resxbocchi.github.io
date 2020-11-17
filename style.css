@@ -145,6 +145,7 @@ input{
   height: 40;
   width: 370;
   max-width: 80%;
+  margin-bottom: 10px;
 }
 .nefacil{
   text-align: justify;
