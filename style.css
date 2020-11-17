@@ -1,8 +1,32 @@
+.logo {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 80%;
+    margin-left: 10;
 
+}
+
+#logototal {
+    text-align: center;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 80%;
+    margin: 100;
+        max-width: 1140px;
+        width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+min-width: 540;
+
+}
 
 .header{
   color: white;
   font-weight: bolder;
+  text-align: center;
+  margin-left: 10;
 }
 #form{
     text-align: center;
@@ -25,18 +49,23 @@ body{
   border-radius: 10px;
   height: 500;
   width: 400;
-    margin:auto;
-    max-width: 80%;
+  margin:auto;
+  max-width: 80%;
+  min-width: 540;
+  margin-left: 10;
 
 }
 
 .preencha{
   color: white;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
+
 }
 .nomeeemail{
-  text-align: left;
+
+  text-align: center;
+
 }
 input{
   width: 300;
