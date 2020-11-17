@@ -2,7 +2,7 @@
     vertical-align: middle;
     border-style: none;
     max-width: 80%;
-    margin-left: 10;
+    margin-left: 10px;
 
 }
 html, body {
@@ -50,7 +50,7 @@ padding-right: 15px;
 padding-left: 15px;
 margin-right: auto;
 margin-left: auto;
-min-width: 540;
+min-width: 540px;
 
 }
 
@@ -78,23 +78,23 @@ min-width: 540;
 #rc.container{
   background-color: #00a778;
   border-radius: 10px;
-  height: 500;
-  width: 400;
+  height: 500px;
+  width: 400px;
   margin:auto;
   max-width: 80%;
-  min-width: 540;
-  margin-left: 10;
+  min-width: 540px;
+  margin-left: 10px;
 
 }
 #rc.container2{
   background-color: #00a778;
   border-radius: 10px;
-  height: 100;
-  width: 400;
+  height: 100px;
+  width: 400px;
   margin:auto;
   max-width: 80%;
-  min-width: 540;
-  margin-left: 10;
+  min-width: 540px;
+  margin-left: 10px;
   text-align: left;
   vertical-align: middle;
 
@@ -113,7 +113,7 @@ min-width: 540;
 
 }
 input{
-  width: 300;
+  width: 300px;
 }
 .submit{
 
@@ -122,8 +122,8 @@ input{
   border-radius: 10px;
   background-color: #ff5a00;
   border-color: #ff5a00;
-  height: 80;
-  width: 360;
+  height: 80px;
+  width: 360px;
   font-weight: bold;
   max-width: 80%;
 }
@@ -137,8 +137,8 @@ input{
   text-align: center;
   background-repeat: no-repeat;
   border-color: white;
-  height: 80;
-  width: 360;
+  height: 80px;
+  width: 360px;
   font-weight: bold;
   color: black
 
@@ -146,8 +146,8 @@ input{
 .namenemail{
   border-radius: 10px;
   border-color: #00a778;
-  height: 40;
-  width: 370;
+  height: 40px;
+  width: 370px;
   max-width: 80%;
   margin-bottom: 10px;
 }
