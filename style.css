@@ -5,6 +5,31 @@
     margin-left: 10;
 
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.sharebuttons{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+.sharebuttons2{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 25px;
+  margin-left: 55px;
+}
+.sharebuttons3{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 25px;
+  margin-left: 55px;
+  width: 50px;
+  height: 50px;
+}
 
 #logototal {
     text-align: center;
@@ -53,6 +78,20 @@ body{
   max-width: 80%;
   min-width: 540;
   margin-left: 10;
+
+}
+#rc.container2{
+  background-color: #00a778;
+  border-radius: 10px;
+  height: 100;
+  width: 400;
+  margin:auto;
+  max-width: 80%;
+  min-width: 540;
+  margin-left: 10;
+  text-align: left;
+  vertical-align: middle;
+
 
 }
 
