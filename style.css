@@ -161,9 +161,7 @@ input{
   border-radius: 10px;
   border-color:#00a778;
 }
-@media only screen and (max-device-width: 900px) {
-/* .menu { width:100%; } */
-}
+
 .listamais{
   list-style-image: url('images/icon.png');
   text-align: justify;
