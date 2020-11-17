@@ -105,6 +105,14 @@ min-width: 540px;
   color: white;
   font-weight: bold;
   text-align: center;
+  font-size:30px;
+
+}
+.escolha{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size:20px;
 
 }
 .nomeeemail{
@@ -154,6 +162,7 @@ input{
 .nefacil{
   text-align: justify;
   font-weight: bolder;
+  font-size: 24px;
 }
 .iframe{
   max-width: 100%;
@@ -165,4 +174,5 @@ input{
 .listamais{
   list-style-image: url('images/icon.png');
   text-align: justify;
+  font-size: 18.9px;
 }
