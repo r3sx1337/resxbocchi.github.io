@@ -2,12 +2,13 @@
 <html>
     <head>
         <title>NovaMente - Agradecimento</title>
-
+        <meta name="viewport" content="width=600; user-scalable=0;initial-scale=1">
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1000; user-scalable=0;initial-scale=1">
 
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -25,27 +26,93 @@
         align-items: center;
         justify-content: center;
         background-color: #7cdbc0;
-        font-size: 1.15rem;
     }
+
+
 
     #msg-agradecimento {
         color: #ECFFFE;
     }
 
     .center {
+        font-size: 100%;
+        text-align:center;
+    }
+    .row {
         display: flex;
-        justify-content: center;
+
+        font-size: 100%;
+        text-align:center;
+    }
+    .column {
+        display: flex;
+        font-size: 100%;
+        text-align:center;
     }
 
     #agradecimento {
         display: flex;
-        justify-content: space-between;
-        padding: 30px 50px;
+        padding: 30px;
         background-color: #11A67C;
-        margin: 20px 5% 20px 5%;
         border-radius: 5px;
+        margin:30px;
     }
 
+    .container{
+      text-align: center;
+    }
+    .btn{
+      background-color: #11A67C;
+      border-color: #11A67C;
+    }
+    strong{
+      margin: 30px;
+    }
+    .share{
+      background-color: #00a778;
+      border-radius: 10px;
+      height: 100px;
+      width: 400px;
+      margin:auto;
+      max-width: 80%;
+      min-width: 540px;
+      margin-left: 10px;
+      text-align: left;
+      vertical-align: middle;
+
+
+    }
+    #ghost{
+      color: #11A67C
+    }
+    p{
+      font-weight: bolder;
+      font-size: 26px;
+      padding: 30px
+    }
+    .sharebuttons{
+      text-align: center;
+      vertical-align: middle;
+      margin-top: 25px;
+      margin-left: 20px;
+    }
+    .sharebuttons2{
+      text-align: center;
+      vertical-align: middle;
+      margin-top: 25px;
+      margin-left: 20px;
+    }
+    .sharebuttons3{
+      text-align: center;
+      vertical-align: middle;
+      margin-top: 25px;
+      margin-left: 20px;
+      width: 50px;
+      height: 50px;
+    }
+    .logo{
+      text-align: center;
+    }
     </style>
     <body>
 
@@ -53,20 +120,48 @@
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2HX7TN"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
-        
+
         <div id="msg-agradecimento">
         <div class="center" >
-        <spam><strong>Pronto! Seu arquivo já deve estar sendo baixado.</strong></spam>
+        <p>Pronto! Caso o download não tenha iniciado, clique no botão abaixo.</p><br>
         </div>
+        <div class="container">
+
+
+                                   <button onclick='download()'class="btn btn-primary btn-lg" id='button' />RECEBER PLANILHA</button><br><br>
+
+<script type="text/javascript">
+function download(){
+ window.open("Gestão do Tempo.xlsx")
+}
+</script>
+                   </div>
         <div class="center">
-        <spam>Se o seu download não começou automaticamente, clique aqui!</spam>
+        <p>Nós da NovaMente agradecemos a confiança!</p><br><br>
         </div>
 
-        <div class="center" id="agradecimento"><spam><strong>Aproveite sua planilha ;)</strong></spam><spam>Compartilhar</spam></spam></div>
+        <div class="row" id="agradecimento">
 
-        <div id="logo" class="center"><img width="120rem" src="images/logo.png"></div>
+
+
+  <div class="column">
+
+          <strong id='ghost'>Aproveite sua planilha! ;)</strong><br>
+</div>
+        <div class="column">
+          <a href="https://telegram.me/share/url?url=https://novamente.netlify.app/&text=NovaMente"><img src="images/Vector-3.png" class="sharebuttons" alt="Logo do telegram na cor branca em cima de fundo verde."></a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://novamente.netlify.app"><img src="images/Vector-1.png" class="sharebuttons2" alt="Logo do facebook na cor branca em cima de fundo verde."></a>
+          <a href="whatsapp://send?text=https://novamente.netlify.app"><img src="images/Vector-2.png" class="sharebuttons2" alt="Logo do whatsapp na cor branca em cima de fundo verde."></a>
+          <a href="https://twitter.com/share?url=https://novamente.netlify.app/&text=NovaMente"><img src="images/vector-5.png" class="sharebuttons3" alt="Logo do twitter na cor branca em cima de fundo verde."></a>
+</div>
+
+</div><br><br>
+
+
+
+        <div id="logo" class="logo"><img width="120rem" src="images/logo.png"></div><br><br>
         </div>
+
 
     </body>
-    
 </html>
