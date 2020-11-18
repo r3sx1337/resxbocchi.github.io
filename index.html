@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <meta name="viewport" content="width=600; user-scalable=0;">
+    <meta name="viewport" content="width=600, user-scalable=0">
     <meta http-equiv="Content-Language" content="pt-br">
 
       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -24,8 +24,6 @@
 
   <body>
 
-    <br>
-    <br>
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2HX7TN"
@@ -37,7 +35,7 @@
       <h1 class='header'>Você sente que aproveita mal o seu tempo?</h1>
     </div>
 
-    <div class='container' id='form'><br><br><br>
+    <div class='container' id='form'>
 
       <div class="row">
 
@@ -50,7 +48,7 @@
             <br>
             <br>
 
-            <p class='nefacil'>Não é fácil e nós sabemos disso. Por isso, preparamos esse <spam class='gdo'>Guia de Organização</spam> Diária para te ajudar a otimizar o seu dia a dia.</p>
+            <p class='nefacil'>Não é fácil e nós sabemos disso. Por isso, preparamos esse Guia de Organização Diário para te ajudar a otimizar o seu dia a dia.</p>
             
             <ul>
               <li class='listamais'><p class='listmais'>MAIS PRODUTIVIDADE: Esse Guia mostra a você como fazer mais com menos, apenas organizando melhor sua rotina.</p></li>
@@ -65,13 +63,13 @@
 
             <div class='container' id='rc'>
 
-              <br>
-
-              <p class='preencha'>Prepare-se para mudar!<br>Nós vamos te mostrar como!</p><br>
+              <div id="textos-form">                
+              <p class='preencha' id="texto-form-1">Prepare-se para mudar?<br>Nós vamos te mostrar como.</p><br>
+              <p id="texto-form-2">Preencha o formulário para receber o guia.</p>
+              </div>
 
               <div class='nomeeemail'>
                 <form method="POST" action="https://smtl.gama.academy/leads/1ccccd80-25e3-11eb-bf8d-0d63c80760d2">
-                  <label for="name">Nome:</label><br>
                   <input
                     class='namenemail'
                     name="name"
@@ -79,18 +77,18 @@
                     type="text"
                     pattern="^\D{2,}\s[\D\s]{2,}$"
                     title="Digite seu nome completo"
+                    placeholder=" Digite seu nome e sobrenome"
                     required/>
 
                   <br>
                   <br>
-
-                  <label for="email">Email:</label><br>
 
                   <input
                     class='namenemail'
                     name="email"
                     id="email"
                     type="email"
+                    placeholder=" Email"
                     required/>
 
                   <br>
@@ -101,7 +99,7 @@
                   <div class="submit">
 
                     <input name="redirectTo" type="hidden" value="https://novamente.netlify.app/agradecimento" />
-                    <input type="submit" class="btn btn-primary btn-lg" id='button' value="RECEBA SUA PLANILHA AGORA" />
+                    <input type="submit" class="btn btn-primary btn-lg" id='button' value="BAIXAR GUIA AGORA" />
                     
                   </div>
 
@@ -111,15 +109,13 @@
 
               <br>
 
-              <p class = 'escolha'>ESCOLHA SUA REDE SOCIAL FAVORITA E COMPARTILHE!</p>
-
-              <br>
+              <p class = 'escolha'>ESCOLHA SUA REDE SOCIAL FAVORITA <br> E COMPARTILHE!</p>
 
               <div class='container2' id='rc'>
-                <a href="https://telegram.me/share/url?url=https://novamente.netlify.app/&text=NovaMente"><img src="images/Vector-3.png" class="sharebuttons" alt="Logo do telegram na cor branca em cima de fundo verde."></a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https://novamente.netlify.app"><img src="images/Vector-1.png" class="sharebuttons2" alt="Logo do facebook na cor branca em cima de fundo verde."></a>
-                <a href="whatsapp://send?text=https://novamente.netlify.app"><img src="images/Vector-2.png" class="sharebuttons2" alt="Logo do whatsapp na cor branca em cima de fundo verde."></a>
-                <a href="https://twitter.com/share?url=https://novamente.netlify.app/&text=NovaMente"><img src="images/vector-5.png" class="sharebuttons3" alt="Logo do twitter na cor branca em cima de fundo verde."></a>
+                <a href="https://telegram.me/share/url?url=https://novamente.netlify.app/&text=NovaMente"><img id="telegram-logo" src="images/Vector-3.png" class="sharebuttons" alt="Logo do telegram na cor branca em cima de fundo verde."></a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://novamente.netlify.app"><img id="facebook-logo" src="images/Vector-1.png" class="sharebuttons2" alt="Logo do facebook na cor branca em cima de fundo verde."></a>
+                <a href="whatsapp://send?text=https://novamente.netlify.app"><img id="whatsapp-logo" src="images/Vector-2.png" class="sharebuttons2" alt="Logo do whatsapp na cor branca em cima de fundo verde."></a>
+                <a href="https://twitter.com/share?url=https://novamente.netlify.app/&text=NovaMente"><img id="twitter-logo" src="images/vector-5.png" class="sharebuttons3" alt="Logo do twitter na cor branca em cima de fundo verde."></a>
               </div>
 
             </div>
