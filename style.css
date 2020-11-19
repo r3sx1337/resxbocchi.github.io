@@ -237,3 +237,10 @@ form{
 .fique{
   padding-top:30px
 }
+@font-face{
+  font-family: Aileron-Regular;
+src: url(Aileron-Regular.otf);
+}
+p{  font-family: Aileron-Regular;}
+h1{  font-family: Aileron-Regular;}
+  
