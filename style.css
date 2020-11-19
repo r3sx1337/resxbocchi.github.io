@@ -1,217 +1,236 @@
 .logo {
-    vertical-align: middle;
-    border-style: none;
-    max-width: 80%;
-    margin-left: 10px;
-}
-dl, ol, ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 5.5%;
-}
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-body{
-  background: #ffffff;
-  padding:5px;
-  margin-right:20px;
-}
-
-.sharebuttons{
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 25px;
-  margin-left: 100px;
-}
-
-.sharebuttons2{
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 25px;
-  margin-left: 55px;
-}
-
-.sharebuttons3{
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 25px;
-  margin-left: 55px;
-  width: 50px;
-  height: 50px;
-}
-
-#logototal {
-  text-align: center;
   vertical-align: middle;
   border-style: none;
   max-width: 80%;
-  margin: 50 100 0 100;
-  max-width: 1140px;
-  width: 100%;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  min-width: 540px;
+  margin-left: 10px;
+}
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 5.5%;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+background: #ffffff;
+padding:5px;
+margin-right:20px;
+}
+
+.sharebuttons{
+text-align: center;
+vertical-align: middle;
+margin-top: 25px;
+margin-left: 100px;
+}
+
+.sharebuttons2{
+text-align: center;
+vertical-align: middle;
+margin-top: 25px;
+margin-left: 55px;
+}
+
+.sharebuttons3{
+text-align: center;
+vertical-align: middle;
+margin-top: 25px;
+margin-left: 55px;
+width: 50px;
+height: 50px;
+}
+
+#logototal {
+text-align: center;
+vertical-align: middle;
+border-style: none;
+max-width: 80%;
+margin: 50 100 0 100;
+max-width: 1140px;
+width: 100%;
+padding-top: 10px;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+min-width: 540px;
 }
 
 .header{
-  font-size: 3.2rem;
-  color: #1f4740;
-  font-weight: 900;
-  text-align: center;
-  margin-left: 10;
+font-size: 3.2rem;
+color: #1f4740;
+font-weight: 900;
+text-align: center;
+margin-left: 10;
 }
 
 #form{
-  display: table;
-  padding-top: 20px;
-  text-align: center;
-  color:white;
+display: table;
+padding-top: 20px;
+text-align: center;
+color:white;
 }
 
 #nome {
-  display: table-cell;
-  width: 100%;
+display: table-cell;
+width: 100%;
 }
 
 .row {
-  display: flex;
+display: flex;
 }
 
 .gdo{
-  color: #084C10;
+color: #084C10;
 }
 
 .column {
-  flex: 50%;
+flex: 50%;
 }
 
 #textos-form {
-  padding-bottom: 20px;
+padding-bottom: 20px;
 }
 
 #texto-form-1 {
-  margin: 0px;
-  text-align: left;
+margin: 0px;
+text-align: left;
 }
 
 #texto-form-2 {
-  font-size: 23.4px;
-  text-align: left;
+font-size: 23.4px;
+text-align: left;
 }
 
 #rc.container{
-  background-color: #084a37;
-  border-radius: 10px;
-  height: 540px;
-  width: 400px;
-  margin:auto;
-  padding: 30px;
-  max-width: 80%;
-  min-width: 540px;
-  margin-left: 10px;
+background-color: #084a37;
+border-radius: 10px;
+height: 540px;
+width: 400px;
+margin:auto;
+padding: 30px;
+max-width: 80%;
+min-width: 540px;
+margin-left: 10px;
 }
 
 #rc.container2{
-  background-color: #084a37;
-  border-radius: 10px;
-  height: 100px;
-  width: 400px;
-  margin:auto;
-  max-width: 80%;
-  min-width: 540px;
-  margin-left: 10px;
-  text-align: left;
-  vertical-align: middle;
+background-color: #084a37;
+border-radius: 10px;
+height: 100px;
+width: 400px;
+margin:auto;
+max-width: 80%;
+min-width: 540px;
+margin-left: 10px;
+text-align: left;
+vertical-align: middle;
 }
 
 .preencha{
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  font-size:30px;
+color: white;
+font-weight: bold;
+text-align: center;
+font-size:30px;
 }
 
 .escolha{
-  color: #1f4740;
-  font-weight: bold;
-  text-align: center;
-  font-size:20px;
+color: #1f4740;
+font-weight: bold;
+text-align: center;
+font-size:20px;
 }
 
 .nomeeemail{
-  text-align: center;
+text-align: left;
+
 }
 input{
-  width: 100%s;
+width: 100%s;
 }
 
 #button{
-  border-radius: 10px;
-  background-color: #e83f0e;
-  border: none;
-  height: 80px;
-  width: 360px;
-  font-weight: bold;
-  max-width: 80%;
+border-radius: 10px;
+background-color: #e83f0e;
+border: none;
+height: 80px;
+width: 360px;
+font-weight: bold;
+max-width: 80%;
 }
 
 #button:hover {
-  background-color: #cc3a0d;
+background-color: #cc3a0d;
 }
 
 #button:active {
-  background-color: #cc3a0d;
-  top: 2px;
+background-color: #cc3a0d;
+top: 2px;
 }
 
 #share{
-  border-radius: 10px;
-  border-style:solid;
-  background-image: url('images/share.png');
-  background-color: white;
-  background-size: contain;
-  background-position: center;
-  text-align: center;
-  background-repeat: no-repeat;
-  border-color: white;
-  height: 80px;
-  width: 360px;
-  font-weight: bold;
-  color: black
+border-radius: 10px;
+border-style:solid;
+background-image: url('images/share.png');
+background-color: white;
+background-size: contain;
+background-position: center;
+text-align: center;
+background-repeat: no-repeat;
+border-color: white;
+height: 80px;
+width: 360px;
+font-weight: bold;
+color: black
 }
 
 .namenemail{
-  border-radius: 10px;
-  border: none;
-  height: 40px;
-  width: 100%;
-  max-width: 80%;
-  margin-bottom: 10px;
+border-radius: 10px;
+border: none;
+height: 40px;
+width: 100%;
+max-width: 80%;
+margin-bottom: 10px;
+padding-left:10px
+}
+label{
+border-radius: 10px;
+border: none;
+height: 40px;
+width: 100%;
+max-width: 80%;
+margin-bottom: 10px;
 }
 
 .nefacil{
-  text-align: justify;
-  font-weight: bolder;
-  font-size: 24px;
-  color: #1f4740;
+text-align: justify;
+font-weight: bolder;
+font-size: 24px;
+color: #1f4740;
 }
 
 .iframe{
-  max-width: 100%;
-  margin:auto;
-  border-radius: 10px;
-  border-color:#00a778;
+max-width: 100%;
+margin:auto;
+border-radius: 10px;
+border-color:#00a778;
 }
 
 .listamais{
-  list-style-image: url('images/icon.png');
-  text-align: justify;
-  font-size: 20px;
-  color: #1f4740;
+list-style-image: url('images/icon.png');
+text-align: justify;
+font-size: 20px;
+color: #1f4740;
+}
+#nome{
+  margin-left: 15px;
+}
+#email{
+  margin-left: 20px;
+}
+form{
+  width: 560px;
 }
