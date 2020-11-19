@@ -18,3 +18,25 @@ button.onclick = () => {
         return alert("Por favor coloque seu nome e sobrenome e um email válido");
     }
 }}
+
+// Execute a function when the user releases a key on the keyboard
+name.addEventListener("keyup", function(event) {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+      // Cancel the default action, if needed
+      event.preventDefault();
+      // Trigger the button element with a click
+      button.click();
+    }
+  });
+
+// Execute a function when the user releases a key on the keyboard
+email.addEventListener("keyup", function(event) {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+      // Cancel the default action, if needed
+      event.preventDefault();
+      // Trigger the button element with a click
+      button.click();
+    }
+  });
