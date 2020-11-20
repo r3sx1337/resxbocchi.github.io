@@ -1,179 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br" xml:lang="pt-br">
-    <head>
-        <title>NovaMente - Agradecimento</title>
-        <meta name="viewport" content="width=1400; user-scalable=0;initial-scale=1">
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        
+<html lang="en">
+<head>
 
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-T2HX7TN');</script>
-        <!-- End Google Tag Manager -->
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    </head>
-    <style>
-    body, html {
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: white;
-    }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T2HX7TN');</script>
+  <!-- End Google Tag Manager -->
 
+  <title>NovaMente - Agradecimento</title>
 
-    #msg-agradecimento {
-        color: #ECFFFE;
-    }
+  <link rel="stylesheet" href="agradecimento.css">
 
-    .center {
-        font-size: 100%;
-        text-align:center;
-    }
-    .row {
-        display: flex;
+</head>
 
-        font-size: 100%;
-        text-align:center;
-    }
-    .column {
-        display: flex;
-        font-size: 100%;
-        text-align:center;
-    }
+<body>
 
-    #agradecimento {
-        display: flex;
-        padding: 30px;
-        background-color: #11A67C;
-        border-radius: 5px;
-        margin:30px;
-    }
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2HX7TN"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-    .container{
-      text-align: center;
-    }
-    .btn{
-      background-color: #11A67C;
-      border-color: #11A67C;
-    }
-    strong{
-      margin: 30px;
-    }
-    .share{
+  <div id="article" class="centered">
 
-    }
-    #ghost{
-      color: #11A67C
-    }
-    p{
-      font-weight: bolder;
-      font-size: 26px;
-      padding: 30px
-    }
+    <div id="texto">
+      <div><p id="p1">Pronto! Seu arquivo já deve estar sendo baixado</p></div>
 
-    .logo{
-      text-align: center;
-    }
-    .pronto{
-      margin: 15px;
-    }
-    .aproveite{
-      margin-top: 32px;
-    }
-    #aproveite{
-        position: relative;
-    }
-    .inner-image {
-  position: absolute;
-  top:50%;
-  margin-left: 350px
-}
+      <div><p>Se o seu download não começou automaticamente, <strong><a href="https://novamente.netlify.app/Gestão do Tempo.xlsx" download="gestão-do-tempo.xlsx">clique aqui.</a></strong></p></div>
 
+      <div id="aproveite-guia">APROVEITE SEU GUIA ;)</div>
+    </div>
 
-    .aproveite{
-      margin-top: 32px;
-    }
-    #compartilhe{
-        position:relative;
-        vertical-align: middle;
-        text-align: center;
-}
+    <div id="compartilhe">
 
-  .whatsapp{
-    position: absolute;
-    transform: translate(-425px,65px )
-  }
-  .facebook{
-    position: absolute;
-    transform: translate(-330px,68px )
-  }
-  .telegram{
-    position: absolute;
-    transform: translate(-262px,65px )
-  }
-  .in{
-    position: absolute;
-    transform: translate(-172px,65px )
-  }
-  .tw{
-    position: absolute;
-    transform: translate(-97px,69px )
-  }
+        <button id="laranja">COMPARTILHE</button>
 
-
-
-    </style>
-    <body>
-
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2HX7TN"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-
-        <div id="msg-agradecimento">
-        <div class="center" >
-
-        <img src='img/pronto.png' alt='Pronto! Caso o download não tenha iniciado, clique no botão abaixo.' class='pronto'><br>
-        <img src='img/se.png' alt='Se o seu download não começou automaticamente, clique aqui.' onclick='download()'>
-        <br>
-<div id='aproveite'>
-        <img src='img/aproveite.png' alt='aproveite seu guia' class='inner-image'>
-        <img src='img/ver.png' alt='fundo verde.' class='aproveite'>
-</div>
-
-<div id='compartilhe'>
-          <img src='img/lar.png' alt='texto compartilhe escrito na parte esquerda e botões de compartilhamento do whatsapp, facebook, telegram, linkedin e twitter ao lado esquerdo.' class='aproveite'>
-
-  <a href="whatsapp://send?text=https://novamente.netlify.app"><img src="img/wa.png" class="whatsapp" alt="Logo do whatsapp na cor branca em cima de fundo verde."></a>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://novamente.netlify.app"><img src="img/fb.png" class="facebook" alt="Logo do facebook na cor branca em cima de fundo verde."></a>
-  <a href="https://telegram.me/share/url?url=https://novamente.netlify.app/&text=NovaMente"><img src="img/Vector-3.png" class="telegram" alt="Logo do telegram na cor branca em cima de fundo verde."></a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://novamente.netlify.app&source=LinkedIn"><img src="img/in.png" class="in" alt="Logo do twitter na cor branca em cima de fundo verde."></a>
-  <a href="https://twitter.com/share?url=https://novamente.netlify.app/&text=NovaMente"><img src="img/twitter.png" class="tw" alt="Logo do twitter na cor branca em cima de fundo verde."></a>
-
-</div>
-
-
+        <div id="social-bar">
+          <div id="social-wpp" ><a href="whatsapp://send?text=https://novamente.netlify.app"><img class="social-button" src="images/Vector-2.png" alt="Logo do whatsapp na cor branca em cima de fundo verde."></a></div>
+          <div id="social-fb" ><a href="https://www.facebook.com/sharer/sharer.php?u=https://novamente.netlify.app"><img class="social-button" src="images/Vector-1.png" alt="Logo do facebook na cor branca em cima de fundo verde."></a></div>
+          <div id="social-telegram" ><a href="https://telegram.me/share/url?url=https://novamente.netlify.app/&text=NovaMente"><img class="social-button" src="images/Vector-3.png" alt="Logo do telegram na cor branca em cima de fundo verde."></a></div>
+          <div id="social-linkedin" ><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://novamente.netlify.app&source=LinkedIn"><img class="social-button" src="images/Vector-4.png"></a></div>
+          <div id="social-twitter" ><a href="https://twitter.com/share?url=https://novamente.netlify.app/&text=NovaMente"><img class="social-button" src="images/vector-5.png" alt="Logo do twitter na cor branca em cima de fundo verde."></a></div>
         </div>
-        <div class="container">
+
+    </div>
+
+    <div id="logo"><img id="logo-img" src="images/logo.png" alt="Logo da NovaMente, consistente de um N maiúsculo na cor preta, cercado por 4 traços em formato radial, nas cores verde, cinza, laranja e branca. Ao lado a palavra novamente está escrita com as letras n e m maiúsculas."></div>
+
+  </div>
+</body>
 
 <script type="text/javascript">
-function download(){
- window.open("Gestão do Tempo.xlsx")
-}
+  function download(){
+   window.open("Gestão do Tempo.xlsx")
+  }
 </script>
-                   </div>
-<br><br>
 
-        <div id="logo" class="logo" alt='logo da NovaMente, consistente da palavra novamente com as letras n e m maiúsculas, dando a conotação da frase Nova Mente.><img src="img/logo.png"></div><br><br>
-
-
-    </body>
 </html>

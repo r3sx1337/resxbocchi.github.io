@@ -1,0 +1,106 @@
+@font-face{
+    font-family: Aileron-Regular;
+    src: url(Aileron-Regular.otf);
+  }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: Aileron-Regular;
+}
+a{
+    text-decoration: none;
+    color: #1F4740;
+}
+p{
+    margin: 6px 0;
+}
+
+#article {
+    display: flex;
+    flex-direction: column;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -5%);
+  }
+
+
+#texto {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #1F4740;
+}
+
+#p1 {
+    font-weight: 900;
+}
+
+#aproveite-guia {
+    font-size: 1.4rem;
+    padding: 15px;
+    margin: 30px 0;
+    border-radius: 10px;
+    background-color: #084A37;
+    color: #fff;
+    font-weight: 900;
+}
+
+#compartilhe {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+    /* justify-content: space-between; */
+    /* border: 2px solid black;
+    border-radius: 10px; */
+    flex-wrap: wrap;
+}
+
+#laranja {
+    color: #fff;
+    min-width: 50%;
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding: 0 10%;
+    border: none;
+    border-radius: 8px;
+    background-color: #E83F0E;
+}
+
+#social-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 250px;
+    padding: 5px 0;
+}
+
+#social-buttons {
+    width: 200px;
+}
+
+.social-button {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    color: #f00;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#logo {
+    text-align: center;
+    margin: 25px 0;
+}
+
+#logo-img {
+    width: 10rem;
+}
